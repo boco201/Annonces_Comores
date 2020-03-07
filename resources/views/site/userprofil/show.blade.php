@@ -17,7 +17,7 @@
 </div>
  <div class="container mt-4">
            
-                  @foreach($product_galleries as $gallery)
+                  @foreach($product->product_galleries as $gallery)
                    <img src="{{ asset('image/galleries/'. $gallery->gallery_image)}}" alt="" width="200" height="200">
              
                   @endforeach
